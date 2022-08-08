@@ -1,0 +1,121 @@
+@import'reset';
+
+.wrap {
+    width: 1440px;
+    margin: 0 auto;
+
+    .pet {
+        border-width: 1220px;
+        display: flex;
+        justify-content: space-between;
+        background: linear-gradient(123.49deg, #FF4029 0.57%, #F02228 104.89%);
+
+        .by {
+            display: flex;
+            justify-content: space-between;
+            column-gap: 40px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+
+        .icon {
+            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+    }
+
+    .anion {
+        display: flex;
+        justify-content: space-between;
+        background: linear-gradient(123.49deg, #FF4029 0.57%, #F02228 104.89%);
+
+        .anion-title {
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 64px;
+            line-height: 77px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+
+        .anion-text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FEFEFE;
+            margin-bottom:
+                20px;
+        }
+
+        .anion-button {
+            background: #F53627;
+            border: 4px solid #FFFFFF;
+            box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.25);
+            border-radius: 32px;
+            display: inline-block;
+        }
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .the {
+            background: linear-gradient(95.52deg, #FFC71F -10.96%, #FFAF18 102.66%);
+            box-shadow: 2px 4px 12px rgba(255, 199, 31, 0.25);
+            border-radius: 22px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+
+
+
+            color: #FFFFFF;
+        }
+    }
+
+    .apple {
+        background: #FFFFFF;
+
+
+        .new {
+            // max-width: 140px;
+            // margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            // padding: 33px;
+            padding-bottom: 33px;
+            // padding-left: 237px;
+            // padding-right: 237px;
+
+            .one {
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 11px;
+                line-height: 13px;
+                color: #000000
+            }
+        }
+
+    }
+}
